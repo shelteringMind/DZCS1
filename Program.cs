@@ -37,7 +37,7 @@ Console.Write($"Наибольшее число равно {max}");
 //*/
 
 //Задача6
-//*/
+/*/
 Console.Write("Введите число: ");
 int A= int.Parse(Console.ReadLine()!);
 
@@ -45,5 +45,24 @@ if(A%2 == 0) {
     Console.Write("Вы ввели четное число.");
 } else {
     Console.Write("Вы ввели нечетное число.");
+}
+//*/
+
+//Задача8
+//*/
+Console.Write("Введите число: ");
+int N= int.Parse(Console.ReadLine()!);
+if(N>0) {
+    for(int i=1;i<=N;i++) {
+        if(i%2 == 0) {
+            Console.Write($"{i} ");
+        }
+    }
+} else {
+    for(int i=1;i>=N;i--) {
+        if(i%2 == 0) {
+            Console.Write($"{i} ");
+        }
+    } 
 }
 //*/
