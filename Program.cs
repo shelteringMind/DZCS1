@@ -16,7 +16,7 @@ if (A>B) {
 //*/
 
 //Задача4
-//*/
+/*/
 Console.Write("Введите первое число: ");
 int A= int.Parse(Console.ReadLine()!);
 Console.Write("Введите второе число: ");
@@ -36,3 +36,14 @@ for(int i=1;i<dim;i++) {
 Console.Write($"Наибольшее число равно {max}");
 //*/
 
+//Задача6
+//*/
+Console.Write("Введите число: ");
+int A= int.Parse(Console.ReadLine()!);
+
+if(A%2 == 0) {
+    Console.Write("Вы ввели четное число.");
+} else {
+    Console.Write("Вы ввели нечетное число.");
+}
+//*/
